@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
+<<<<<<< HEAD
     "app": "node src/app.js",
+=======
+>>>>>>> c41f84527d2edbe1fac4f318b3d83d05af0c4fec
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
