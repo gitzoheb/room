@@ -31,7 +31,7 @@ const UPLOADS_DIR = path.resolve(__dirname, "../uploads");
 
 app.use("/uploads", express.static(UPLOADS_DIR));
 app.use(cors({
-  origin: "http://localhost:5000",
+  origin: "http://localhost:5173",
   credentials: true,
 }));
 
