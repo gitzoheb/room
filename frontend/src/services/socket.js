@@ -30,7 +30,7 @@ export const initSocket = (userId) => {
 
   console.log("Initializing socket connection for user:", userId);
   
-  socket = io("http://localhost:5000", {
+  socket = io("https://room-kp5a.onrender.com", {
     // Start with HTTP long-polling to complete the Engine.IO handshake, then upgrade to WebSocket
     transports: ["polling", "websocket"],
     withCredentials: true,

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://room-kp5a.onrender.com/api",
 });
 
 // Add request interceptor to include user ID in headers
